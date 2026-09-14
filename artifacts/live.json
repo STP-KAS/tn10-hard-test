@@ -1,0 +1,33 @@
+{
+  "at": "2026-09-14T19:30:00+02:00",
+  "network": "testnet-10",
+  "wallet": "groks-wallet",
+  "receive": "kaspatest:qzffl5xy9np46gkttyuftqnv2w04pr8g3wsp7c3vv8se3txtelx6q7c0v0ldx",
+  "change": "kaspatest:qp3mgdcusyesaztxhuuqa8y3t0mtesgfgt765t34273ulugx9vh0c7zg793ld",
+  "localNode": {
+    "synced": true,
+    "serverVersion": "2.0.1",
+    "utxos": 97047,
+    "sompi": "30054311432022",
+    "tKAS": "300543.11432022"
+  },
+  "dust": {
+    "sompi": "1",
+    "error": "Storage mass exceeds maximum",
+    "txid": null
+  },
+  "payloadJournal": {
+    "txid": "64057dd70f101bd40f49e6788f415d8f7c2bf141dfcf49fe06c0467635244dab",
+    "accepted": true,
+    "payloadUtf8": "tn10-hard-test payload-check",
+    "payloadHex": "746e31302d686172642d74657374207061796c6f61642d636865636b",
+    "amountSompi": "100000000"
+  },
+  "oldJournal": {
+    "txid": "59b284dee3d737a40699703f1a77263aa139450d2c193e9bcd558abdb149f676",
+    "accepted": true,
+    "payload": null
+  },
+  "peglabSponsor": "kaspatest:qzpvdakagvwfm95g8pv9ndpupjtndgjfhmve08cg3tv5wgfytjzf7cudwwzv0",
+  "note": "PegLab genesis is not this wallet. 1 sompi stillpay is not on-chain. Mainnet 16111 was not stopped."
+}

@@ -1,0 +1,4 @@
+.local/
+secrets/
+*.log
+node_modules/
