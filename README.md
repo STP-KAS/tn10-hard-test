@@ -28,7 +28,7 @@ Stay STP-delusional about the destination (L1 cash, skip Circle for dapp fees, P
 | groks-wallet can “pay all my GitHubs” | It can **mine and send tKAS**. Most repos do not take `kaspatest:` as a product action. |
 | stillpay 1 sompi receipt is on-chain | **No.** `Storage mass exceeds maximum`. The journal is **1 tKAS** plain transfers. |
 | STATUS.md (~93k tKAS / 30k UTXOs) | **Stale.** Local node: **~300k tKAS / ~97k UTXOs** and climbing. |
-| groks-wallet GitHub is private | **Public.** AGENTS.md is wrong. Seed is still gitignored. |
+| groks-wallet GitHub is private | **Was wrong.** README/AGENTS/STATUS updated 14 Sep evening. Seed still gitignored. |
 | PegLab genesis from this wallet | **No.** Genesis is pinned to a **different** sponsor address that already holds ~274k tKAS. |
 | kns “fails #234” so KasName is hostile | **False.** The test greps the **comment** `Do not readInputState`. The function is not called. |
 | Old stillpay journal has a payload | **`payload: null`** on `59b284…`. New send **does** land payload. |
@@ -49,17 +49,30 @@ Previous journal (accepted, **payload still null**):
 
 ---
 
+## Reports (filed on this GitHub)
+
+Upstream `POST /issues` was **403** on Luke’s repo and on KaspaSilver/KaChat-Desktop. Solved by filing here:
+
+| Who | Issue |
+| --- | --- |
+| KaspaSilver | [#1](https://github.com/STP-KAS/tn10-hard-test/issues/1) |
+| Luke (elldeeone/kaspa-x402) | [#2](https://github.com/STP-KAS/tn10-hard-test/issues/2) |
+| This desk (leftovers) | [#3](https://github.com/STP-KAS/tn10-hard-test/issues/3) |
+
+Copy, links, 403 log: [REPORTS.md](REPORTS.md).
+
 ## Read this
 
-1. [METHOD.md](METHOD.md) — what ran, why, what was refused
-2. [LIVE.md](LIVE.md) — node, miner, balances, dust, payload tx
-3. [TESTS.md](TESTS.md) — every local suite that executed
-4. [INVENTORY.md](INVENTORY.md) — all 36 GitHubs
-5. [BREAKPOINTS.md](BREAKPOINTS.md) — the actual cracks
-6. [LEAKS.md](LEAKS.md) — secrets, public-by-mistake, false alarms
-7. [PROPOSITIONS.md](PROPOSITIONS.md) — merge, archive, one classroom path
-8. [PRACTICE.md](PRACTICE.md) — Grok best practice for this kind of pass
-9. [SOURCES.md](SOURCES.md) — APIs, txids, local paths, upstreams
+1. [REPORTS.md](REPORTS.md) — Luke + KaspaSilver + why not their trackers
+2. [METHOD.md](METHOD.md) — what ran, why, what was refused
+3. [LIVE.md](LIVE.md) — node, miner, balances, dust, payload tx
+4. [TESTS.md](TESTS.md) — every local suite that executed
+5. [INVENTORY.md](INVENTORY.md) — all 36 GitHubs
+6. [BREAKPOINTS.md](BREAKPOINTS.md) — the actual cracks
+7. [LEAKS.md](LEAKS.md) — secrets, public-by-mistake, false alarms
+8. [PROPOSITIONS.md](PROPOSITIONS.md) — merge, archive, one classroom path
+9. [PRACTICE.md](PRACTICE.md) — Grok best practice for this kind of pass
+10. [SOURCES.md](SOURCES.md) — APIs, txids, local paths, upstreams
 
 ---
 

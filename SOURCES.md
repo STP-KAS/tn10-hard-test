@@ -8,6 +8,8 @@ Nothing here is a seed.
 - Payer: https://github.com/STP-KAS/groks-wallet
 - Prior classification: groks-wallet `REPORT.md` / `STATUS.md` (14 Sep 2026, **stale numbers**)
 - This report: https://github.com/STP-KAS/tn10-hard-test
+- Issues: [#1 Silver](https://github.com/STP-KAS/tn10-hard-test/issues/1) · [#2 Luke](https://github.com/STP-KAS/tn10-hard-test/issues/2) · [#3 desk](https://github.com/STP-KAS/tn10-hard-test/issues/3)
+- Sister issues: [kaachat-desktop#1](https://github.com/STP-KAS/kaachat-desktop/issues/1) · [grok-heavy-test#1](https://github.com/STP-KAS/grok-heavy-test/issues/1)
 
 `gh api users/STP-KAS/repos?per_page=100&type=all` — 36 repos (33 + forks `kaspa-x402`, `rusty-kaspa`, `kachat-test-with-silver`).
 
