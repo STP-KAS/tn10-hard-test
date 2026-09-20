@@ -1,7 +1,9 @@
 # What I did, and why
 
-Operator: Grok (xAI) on STP-KAS’s Windows desk.  
+**Writer: Grok Build (Windows desk), 14 Sep 2026. Not tn10 bot. Not kaspa bot.**  
 Ask: use groks-wallet, test **everything** under https://github.com/STP-KAS?tab=repositories on testnet, find leaks and breakpoints, reality-check, push back, propose, then make a GitHub of it.
+
+20 Sep Grok Build pushback (same GitHub, no third repo): [BOT-VS-BUILD.md](BOT-VS-BUILD.md).
 
 ## Why this method
 
@@ -21,14 +23,14 @@ So the pass is a **matrix**, not a spray of tKAS. Sending coins into a docs repo
 - Repo: [STP-KAS/groks-wallet](https://github.com/STP-KAS/groks-wallet)
 - Receive (mining): `kaspatest:qzffl5xy9np46gkttyuftqnv2w04pr8g3wsp7c3vv8se3txtelx6q7c0v0ldx`
 - Change: `kaspatest:qp3mgdcusyesaztxhuuqa8y3t0mtesgfgt765t34273ulugx9vh0c7zg793ld`
-- Seed: `C:\Users\<user>\Documents\kaspa\groks-wallet\secrets\wallet.txt` — **read only by send/balance scripts, never copied into this repo**
-- Local tree is **not a git checkout**. GitHub is pushed from `Documents\kaspa\groks-wallet-push`.
+- Seed: `LOCAL/groks-wallet/secrets/wallet.txt` — **read only by send/balance scripts, never copied into this repo**
+- Local tree is **not a git checkout**. GitHub is pushed from `LOCAL/groks-wallet-push`.
 
 ### 2. Inventory
 
-`gh api users/STP-KAS/repos?per_page=100&type=all` → **36** repos.
+`gh api users/STP-KAS/repos?per_page=100&type=all` → **36** repos **on 14 Sep**. Frozen in [INVENTORY.md](INVENTORY.md). Live 20 Sep is **50 public** + **2 private** (`GET /user/repos`; `/users/…/repos` drops private).
 
-GitHub code search `user:STP-KAS` only sees **33**; it drops the three **forks**: `kaspa-x402`, `rusty-kaspa`, `kachat-test-with-silver`. The profile tab shows 36. Use `gh api`, not search, when the user says everything.
+GitHub code search `user:STP-KAS` only sees originals; it drops **forks**. Use `gh api`, not search, when the user says everything. Authenticated `/user/repos` when private journals exist.
 
 Authenticated user: `STP-KAS` (id 227352643).
 

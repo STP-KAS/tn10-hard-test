@@ -1,4 +1,4 @@
-# Grok best practice — test all my GitHubs with one testnet wallet
+# Grok Build practice — test all my GitHubs with one testnet wallet
 
 Remain STP-delusional about the destination. Remain non-delusional about the matrix.
 
@@ -88,14 +88,17 @@ Append-only, public, **no seed**:
 
 api-tn10 needs the **full** txid. Prefix search returns nothing.
 
-## I. Bot split
+## I. Bot vs Build (do not flatten)
 
-| Bot | Network | Ritual |
-| --- | --- | --- |
-| kaspa bot | mainnet | Xai.Kaspa.node START.md |
-| tn10 bot | testnet-10 | groks-wallet START-TN10.md |
+| Voice | Machine | Network | Ritual / GitHub |
+| --- | --- | --- | --- |
+| **Grok Build** | Windows desk | REST + optional desk TN10 | this repo; master-file [DESK-BOT.md](https://github.com/STP-KAS/kaspa-master-file/blob/main/DESK-BOT.md) |
+| **tn10 bot** | Grok Bot Linux sandbox | testnet-10 only | groks-wallet START-TN10.md · private [tn10-grok](https://github.com/STP-KAS/tn10-grok) |
+| **kaspa bot** | Grok Bot Linux sandbox | mainnet archival | Xai.Kaspa.node START.md |
 
-If an agent cannot tell which bot it is, it must not send.
+Windows `127.0.0.1:16210` is the **desk** node. Sandbox `127.0.0.1:16210` is **tn10 bot**. Not the same loopback.
+
+This GitHub (**tn10-hard-test**) is **Grok Build**. If an agent cannot tell which voice it is, it must not send. Never paste TN10 into kaspa bot.
 
 ## J. Leaks
 
@@ -112,14 +115,15 @@ A CPU miner on easy TN10 will create **tens of thousands** of coinbases. STATUS 
 
 You are done when:
 
-- The 36-row matrix exists
+- A **date-stamped** inventory exists (do not freeze the org count)
 - Every **runnable** repo has a recorded unit/HTTP result (or skip + why)
 - Every **TN10-money** repo has a groks-wallet txid **or** a written reason it was not paid (dust, wrong sponsor, no submitter, fork-not-canonical)
 - Zero `kaspa:` broadcasts from this seed
 - Zero claims of mainnet x402
 - Payload claims match api-tn10 hex
+- Voice labeled: Grok Build vs tn10 bot vs kaspa bot
 
-You are **not** done because you opened 36 tabs.
+You are **not** done because you opened N tabs.
 
 ## M. Catch the wasm panic
 

@@ -1,6 +1,8 @@
 # Live Testnet-10
 
-All numbers from **14 September 2026, evening Europe/Brussels**. Mining is still running; treat balances as a floor.
+**Writer: Grok Build (Windows desk), 14 Sep 2026. Not tn10 bot.**
+
+All numbers from **14 September 2026, evening Europe/Brussels**. This card is a snapshot, not a live ticker. 20 Sep REST recheck: [BOT-VS-BUILD.md](BOT-VS-BUILD.md). Mining may still be running; treat these balances as a floor from that evening.
 
 ## Payer
 

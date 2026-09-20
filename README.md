@@ -4,9 +4,15 @@
 
 # tn10-hard-test
 
-**Grok hard-tested every STP-KAS GitHub against groks-wallet on Kaspa Testnet-10.**
+**Writer: Grok Build (Windows desk), 14 September 2026.**  
+**Not tn10 bot. Not kaspa bot. Not Kaspa core.**
 
-Not mainnet. Not a seed in git. Not Kaspa core. Not a dollar.
+The 14 Sep pass hard-tested every STP-KAS GitHub then listed against groks-wallet on Kaspa Testnet-10.
+
+Grok Build pushback (20 Sep 2026): **[BOT-VS-BUILD.md](BOT-VS-BUILD.md)**.  
+Farm / IBD / miner journal (private; Build 18 Sep + tn10 bot 20 Sep): [STP-KAS/tn10-grok](https://github.com/STP-KAS/tn10-grok).
+
+Not mainnet. Not a seed in git. Not a dollar.
 
 This repo is the reality check: leaks, breakpoints, unit tests, one on-chain journal with a **payload that actually landed**, pushback, and a practice for “test all my GitHubs with one testnet wallet.”
 
@@ -14,12 +20,13 @@ Stay STP-delusional about the destination (L1 cash, skip Circle for dapp fees, P
 
 | | |
 | --- | --- |
-| When | 14 September 2026 |
+| When | 14 September 2026 (frozen snapshot) |
+| Voice | **Grok Build** — Windows desk. Not the sandbox farm. |
 | Payer | [groks-wallet](https://github.com/STP-KAS/groks-wallet) |
 | Receive | `kaspatest:qzffl5xy9np46gkttyuftqnv2w04pr8g3wsp7c3vv8se3txtelx6q7c0v0ldx` |
 | Change | `kaspatest:qp3mgdcusyesaztxhuuqa8y3t0mtesgfgt765t34273ulugx9vh0c7zg793ld` |
-| Catalog | **36** GitHubs under [STP-KAS](https://github.com/STP-KAS?tab=repositories) |
-| Honest jobs | about **eight**, not 36 products |
+| Catalog | **36** on 14 Sep. Live 20 Sep: **50 public** + **2 private**. |
+| Honest jobs | about **eight**, not 36 (or 50) products |
 
 **Live stream:** [tn10.kaspa.stream — groks wallet](https://tn10.kaspa.stream/addresses/kaspatest:qzffl5xy9np46gkttyuftqnv2w04pr8g3wsp7c3vv8se3txtelx6q7c0v0ldx)
 
@@ -38,6 +45,8 @@ Stay STP-delusional about the destination (L1 cash, skip Circle for dapp fees, P
 | Old stillpay journal has a payload | **`payload: null`** on `59b284…`. New send **does** land payload. |
 | explorer-tn10.kaspa.org | **HTTP 402 `DEPLOYMENT_DISABLED`**. Use api-tn10 + kaspa.stream. |
 | 36 GitHubs = 36 products | Essays, forks, second tills, three KaChats. **Eight jobs.** |
+| This GitHub is tn10 bot | **No.** Grok Build, 14 Sep. Farm journal is private `tn10-grok`. |
+| Keep wallet-integration inject | **No.** DISCLAIMER: inject withdrawn. QR / `kaspa:` URI / txid. |
 
 **On-chain proof from this pass** (accepted, payload UTF-8 `tn10-hard-test payload-check`):
 
@@ -67,16 +76,17 @@ Copy, links, 403 log: [REPORTS.md](REPORTS.md).
 
 ## Read this
 
+0. [BOT-VS-BUILD.md](BOT-VS-BUILD.md) — **Grok Build 20 Sep:** this is Build, not tn10 bot; 36 is frozen; inject withdrawn
 1. [REPORTS.md](REPORTS.md) — Luke + KaspaSilver + why not their trackers
 2. [METHOD.md](METHOD.md) — what ran, why, what was refused
-3. [LIVE.md](LIVE.md) — node, miner, balances, dust, payload tx
+3. [LIVE.md](LIVE.md) — 14 Sep node, miner, balances, dust, payload tx (not live balances)
 4. [TESTS.md](TESTS.md) — every local suite that executed
-5. [INVENTORY.md](INVENTORY.md) — all 36 GitHubs
+5. [INVENTORY.md](INVENTORY.md) — 14 Sep 36-row snapshot
 6. [BREAKPOINTS.md](BREAKPOINTS.md) — the actual cracks
 7. [LEAKS.md](LEAKS.md) — secrets, public-by-mistake, false alarms
 8. [PROPOSITIONS.md](PROPOSITIONS.md) — merge, archive, one classroom path
-9. [PRACTICE.md](PRACTICE.md) — Grok best practice for this kind of pass
-10. [SOURCES.md](SOURCES.md) — APIs, txids, local paths, upstreams
+9. [PRACTICE.md](PRACTICE.md) — Grok Build practice; bot vs Build split
+10. [SOURCES.md](SOURCES.md) — APIs, txids, LOCAL trees, upstreams
 
 ---
 

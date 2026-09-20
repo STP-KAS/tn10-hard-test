@@ -11,7 +11,9 @@ Nothing here is a seed.
 - Issues: [#1 Silver](https://github.com/STP-KAS/tn10-hard-test/issues/1) · [#2 Luke](https://github.com/STP-KAS/tn10-hard-test/issues/2) · [#3 desk](https://github.com/STP-KAS/tn10-hard-test/issues/3)
 - Sister issues: [kaachat-desktop#1](https://github.com/STP-KAS/kaachat-desktop/issues/1) · [grok-heavy-test#1](https://github.com/STP-KAS/grok-heavy-test/issues/1)
 
-`gh api users/STP-KAS/repos?per_page=100&type=all` — 36 repos (33 + forks `kaspa-x402`, `rusty-kaspa`, `kachat-test-with-silver`).
+`gh api users/STP-KAS/repos?per_page=100&type=all` — **36** on 14 Sep (33 + forks `kaspa-x402`, `rusty-kaspa`, `kachat-test-with-silver`). Live 20 Sep: **50 public**. `GET /user/repos`: **52** including private `tn10-grok` and `kns-kasware-tn10-test`.
+
+Grok Build 20 Sep: [BOT-VS-BUILD.md](BOT-VS-BUILD.md).
 
 Authenticated as `STP-KAS` (GitHub user id 227352643).
 
@@ -37,17 +39,17 @@ Local RPC: `127.0.0.1:17210` Borsh, network `testnet-10`, kaspad **2.0.1**.
 | `64057dd70f101bd40f49e6788f415d8f7c2bf141dfcf49fe06c0467635244dab` | 1 tKAS receive→change, payload `tn10-hard-test payload-check`, accepted |
 | `59b284dee3d737a40699703f1a77263aa139450d2c193e9bcd558abdb149f676` | prior 1 tKAS journal, accepted, **payload null** |
 
-## Local trees
+## Local trees (no desk username)
 
-- `C:\Users\<user>\Documents\kaspa\groks-wallet` — node, miner, secrets (not git)
-- `C:\Users\<user>\Documents\kaspa\groks-wallet-push` — git remote for groks-wallet
-- `C:\Users\<user>\stillpay-tn10`, `stillpay-mainnet`, `peglab-stp`, `peglab-poc`
-- `C:\Users\<user>\src\kaspa-x402` — STP fork checkout
-- `C:\Users\<user>\grok-test-cascade-work\kascade`
-- `C:\Users\<user>\kns`, `kns-spec`
-- `C:\Users\<user>\Documents\kaspa\ishum`, `superapp` (gramlane), `superappstablesalternative` (till)
-- `C:\Users\<user>\dagknight-test-grok`
-- `C:\Users\<user>\wallet-integration`, `kaachat-desktop`
+- `LOCAL/groks-wallet` — node, miner, secrets (not git)
+- `LOCAL/groks-wallet-push` — git remote for groks-wallet
+- `LOCAL/stillpay-tn10`, `stillpay-mainnet`, `peglab-stp`, `peglab-poc`
+- `LOCAL/src/kaspa-x402` — STP fork checkout
+- `LOCAL/grok-test-cascade-work/kascade`
+- `LOCAL/kns`, `kns-spec`
+- `LOCAL/ishum`, `superapp` (gramlane), `superappstablesalternative` (till)
+- `LOCAL/dagknight-test-grok`
+- `LOCAL/wallet-integration`, `kaachat-desktop`
 
 ## Upstream (not STP originals)
 

@@ -69,7 +69,7 @@ Parker already journaled receipts. Luke already has an RC binding. PegLab alread
 4. **402 that charges:** clone **elldeeone/kaspa-x402**. One local URL → 402 → pay groks-wallet → 200 + txid. Native KAS. Not v1. Not mainnet.
 5. **Till:** Ishum. Default **KAS only**. For classroom, add explicit `kaspatest:` store mode **or** stop pretending this wallet can check out coffee.
 6. **Names:** kns-spec. Fix the grep test. One name that opens a paid local dApp without a seed.
-7. **Inject:** wallet-integration. CLI seed is for scripts.
+7. **No inject.** wallet-integration is **withdrawn**. QR / `kaspa:` URI / paste txid only. Never a seed.
 8. **Ops:** windows-p2p-node-guide + Xai.Kaspa.node + groks-wallet START-TN10. Three rituals, two networks.
 
 **Kill-if shipped as product:** tPEG as money · GRAM as KCC-20 · fourth 402 envelope · TN12 · seed-paste UX · `allowMainnet` on kaspa-x402 · kUSD with no capital · “Kaspa has x402” because sixpack.wtf said bind.

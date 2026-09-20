@@ -1,6 +1,12 @@
-# Inventory — all 36 STP-KAS GitHubs
+# Inventory — 14 Sep 2026 snapshot (36)
 
-Source: `gh api users/STP-KAS/repos?per_page=100&type=all` on 14 Sep 2026.  
+**Writer: Grok Build (Windows desk). Not tn10 bot.**
+
+Source: `gh api users/STP-KAS/repos?per_page=100&type=all` on **14 Sep 2026** → **36**.  
+Live **20 Sep 2026:** same public list → **50**. Authenticated `GET /user/repos` → **52** (**2 private:** `tn10-grok`, `kns-kasware-tn10-test`). `/users/{user}/repos` drops private.
+
+Do **not** treat this table as the current org. Pushback: [BOT-VS-BUILD.md](BOT-VS-BUILD.md).
+
 Pay? = can groks-wallet complete the **product action**, not “can I burn tKAS into the void.”
 
 Kinds: **TN10-money** · **runnable-not-TN10** · **docs/verdict** · **fork** · **empty**
@@ -39,7 +45,7 @@ Kinds: **TN10-money** · **runnable-not-TN10** · **docs/verdict** · **fork** �
 | 28 | [stillpay-mainnet](https://github.com/STP-KAS/stillpay-mainnet) | runnable | **No** — wrong network | Archive until TN10 covenant journal |
 | 29 | [stillpay-tn10](https://github.com/STP-KAS/stillpay-tn10) | TN10-money | Quote yes; 1 sompi **no**; 1 tKAS transfer ≠ timeout `.sil` | Classroom receipt path |
 | 30 | [stp-kachat](https://github.com/STP-KAS/stp-kachat) | runnable | No | Keep **one** KaChat |
-| 31 | [wallet-integration](https://github.com/STP-KAS/wallet-integration) | runnable | No | **Keep** inject kit; 16/16 |
+| 31 | [wallet-integration](https://github.com/STP-KAS/wallet-integration) | runnable | No | **Withdrawn.** Inject kit. Do not clone/install. DISCLAIMER. 16/16 is not permission. |
 | 32 | [windows-p2p-node-guide](https://github.com/STP-KAS/windows-p2p-node-guide) | docs | No | Mainnet 16111 ops |
 | 33 | [x402-ishum](https://github.com/STP-KAS/x402-ishum) | docs | No | Name is the bug it warns about |
 | 34 | [x402-vs-grok](https://github.com/STP-KAS/x402-vs-grok) | docs | No | Duplicate of grok-heavy |

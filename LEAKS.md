@@ -30,7 +30,7 @@ Public mining address is **not** a leak. It is the product of a testnet classroo
 | `send-tkas.mjs` lives in a **public** repo | It reads `secrets/wallet.txt` locally. Publishing the script is correct. Publishing the file it reads is not. Keep `.gitignore`. |
 | groks-wallet `.gitignore` omits `artifacts/` | Desk `artifacts/` has quotes and logs (no seed this pass). A `git add .` from a merged tree would commit it. Add `artifacts/` and `.env`. |
 | Local `ADDRESS.json` (gitignored) | Public receive + change + **account xpub** (watch-only). Keep ignored. |
-| kns / groks-wallet absolute `C:\Users\<user>\...` paths | Username + layout in public source. Not a key. Use env vars. |
+| kns / groks-wallet absolute desk paths | Username + layout in public source. Not a key. Use env vars. This report’s METHOD/SOURCES used the same pattern on 14 Sep; **20 Sep Grok Build replaced them with `LOCAL/`**. |
 | kaspa-x402 demo-gateway wrangler env | Public **testnet** pay-to and server pubkey in worker config (`kaspatest:qzlws9lm7uyt0tftzffshnyeu2zcqk4kf7hw5ghk6v0zh093vnkljcy2fl0fh`). Expected for a hosted TN10 demo. Not groks-wallet. Not a mainnet key. |
 | kns / kns-spec TN10 fee address | Public protocol fee sink. Anyone can see the balance (~1.37M tKAS). Not an STP seed. |
 
@@ -38,7 +38,7 @@ Public mining address is **not** a leak. It is the product of a testnet classroo
 
 | Finding | Notes |
 | --- | --- |
-| LinkedIn / local paths in project-delusional README | Human identity + `C:\Users\<user>\...` in a public README. Not a key. Decide if the desk path catalog belongs on GitHub. |
+| LinkedIn / local paths in project-delusional README | Human identity + desk layout in a public README. Not a key. Decide if the desk path catalog belongs on GitHub. |
 | `kaspa-data-vault` | Local Go module `github.com/stp/kaspa-data-vault` with `testdata/secret.txt`. **Not** in the 36 public GitHubs. Keep it that way unless the secret is a fixture. |
 | Three KaChat copies | Attack surface is duplicate Electron trees, not a pasted seed. |
 
