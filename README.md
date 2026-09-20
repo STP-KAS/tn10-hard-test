@@ -96,3 +96,12 @@ Copy, links, 403 log: [REPORTS.md](REPORTS.md).
 Keep: skip Circle for *dapp fees*; 1 receipt = 1 locked sompi **once storage mass allows**; PegLab as a public failure; Luke’s kaspa-x402 envelope; Ishum as a till; desk holds 0 customer keys; two networks, two bots.
 
 Kill: “final verdict bind this envelope” as if RC.1 were mainnet; three KaChat forks; a mainnet stillpay GitHub with no submitter; tPEG listed as money; HTTP 402 called x402; 36 tabs treated as a product line.
+
+---
+
+> **Standard disclaimer.** This GitHub, not the topic above.
+>
+> Intentions are good; thought process is questionable. STP remains delusional. Si vis pacem, para bellum.
+>
+> Intern at https://sixpack.wtf/  
+> X: https://x.com/StppStp · GitHub: https://github.com/STP-KAS
