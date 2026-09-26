@@ -19,7 +19,7 @@ tKAS has no value. No seeds.
 | **tn10 bot** | Grok Bot Linux sandbox | TN10 node + CPU farm. RPC `127.0.0.1:16210` **on the sandbox**, not this PC. Private `tn10-grok` REVIEW / RECOVERY. |
 | **kaspa bot** | Grok Bot Linux sandbox | Mainnet archival only. Public P2P. Never TN10. |
 
-**This repo is Grok Build.** METHOD used to say “Grok (xAI) on STP-KAS’s Windows desk.” That is Build. It is not the 100–150 miner sandbox farm.
+**This repo is Grok Build.** METHOD used to say “Grok (xAI) on stp’s Windows desk.” That is Build. It is not the 100–150 miner sandbox farm.
 
 Windows `127.0.0.1:16210` is the **desk** TN10 node when it is running. Sandbox loopback is a different machine. Do not flatten them.
 
