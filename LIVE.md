@@ -8,14 +8,14 @@ All numbers from **14 September 2026, evening Europe/Brussels**. This card is a 
 
 | Role | Address |
 | --- | --- |
-| Mining receive | `kaspatest:qzffl5xy9np46gkttyuftqnv2w04pr8g3wsp7c3vv8se3txtelx6q7c0v0ldx` |
-| Change / stillpay pay-to | `kaspatest:qp3mgdcusyesaztxhuuqa8y3t0mtesgfgt765t34273ulugx9vh0c7zg793ld` |
+| Mining receive | `[address]` |
+| Change / stillpay pay-to | `[address]` |
 
-Explorer: https://tn10.kaspa.stream/addresses/kaspatest:qzffl5xy9np46gkttyuftqnv2w04pr8g3wsp7c3vv8se3txtelx6q7c0v0ldx
+Explorer: https://tn10.kaspa.stream/addresses/[address]
 
 ## Node
 
-Local Borsh `getServerInfo` via kaspa wasm SDK → `127.0.0.1:17210`:
+Local Borsh `getServerInfo` via kaspa wasm SDK → `[ip]`:
 
 ```json
 {
@@ -71,10 +71,10 @@ node scripts\send-tkas.mjs --to kaspatest:qp3mg… --sompi 100000000 --payload "
 txid:
 
 ```
-64057dd70f101bd40f49e6788f415d8f7c2bf141dfcf49fe06c0467635244dab
+[hash]
 ```
 
-`GET https://api-tn10.kaspa.org/transactions/64057dd70f101bd40f49e6788f415d8f7c2bf141dfcf49fe06c0467635244dab`
+`GET https://api-tn10.kaspa.org/transactions/[hash]`
 
 | Field | Value |
 | --- | --- |
@@ -87,7 +87,7 @@ txid:
 | fees (sdk summary) | 210,200 sompi |
 | UTXOs consumed | **1** (largest-first picker — 97k set did **not** hang a spend) |
 
-Old journal `59b284dee3d737a40699703f1a77263aa139450d2c193e9bcd558abdb149f676`: still **accepted**, `payload` still **null**. The API is not blind. That tx never carried the stillpay string `REPORT.md` talked about.
+Old journal `[hash]`: still **accepted**, `payload` still **null**. The API is not blind. That tx never carried the stillpay string `REPORT.md` talked about.
 
 This is still a **plain P2PK transfer**, not `KaChatPayTimeout.sil` lock/claim/reclaim.
 
@@ -107,20 +107,20 @@ HTTP `:8771` 200. `/server/serve.mjs` and `/.git/config` **403**. `/src/network.
 
 - Network `testnet-10`
 - Warning `TESTNET TOY. NOT USD. WILL DEPEG.`
-- Sponsor **`kaspatest:qzpvdakagvwfm95g8pv9ndpupjtndgjfhmve08cg3tv5wgfytjzf7cudwwzv0`** (~273,973 tKAS on api-tn10)
-- Mining address in the same file: `kaspatest:qqup3k4ru5uhj9swa05afa3zqcwkyhtv9vz9dme68cglza73mc5yk4r7an5cj` (~104,044 tKAS)
+- Sponsor **`[address]`** (~273,973 tKAS on api-tn10)
+- Mining address in the same file: `[address]` (~104,044 tKAS)
 - Pool 2 tKAS + fee; silverc compiled; funding UTXO picked on the **sponsor**, not groks-wallet
 - No `PEGLAB_SPONSOR_KEY` / `.local/sponsor.json` on this pass
 
 **Do not say groks-wallet funded PegLab genesis.** It did not. PegLab has its own TN10 whale.
 
-Live UI `http://127.0.0.1:8765/` → 200, title “PegLab - classroom, not a dollar.”
+Live UI `http://[ip]/` → 200, title “PegLab - classroom, not a dollar.”
 
 ## Other TN10 addresses that are not this wallet
 
 | Address | Role | api-tn10 sompi |
 | --- | --- | --- |
-| `kaspatest:qq9h47etjv6x8jgcla0ecnp8mgrkfxm70ch3k60es5a50ypsf4h6sak3g0lru` | kns / kns-spec **TN10 fee** (protocol, not STP spend) | 137,482,932,530,341 (~1.37M tKAS) |
+| `[address]` | kns / kns-spec **TN10 fee** (protocol, not STP spend) | 137,482,932,530,341 (~1.37M tKAS) |
 | PegLab sponsor / miner | see above | own wallets |
 
 Sending groks-wallet tKAS to the KNS fee sink is a tip to that protocol, not “KNS product paid.”

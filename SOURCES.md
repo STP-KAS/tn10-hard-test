@@ -21,23 +21,23 @@ Authenticated as `STP-KAS` (GitHub user id 227352643).
 
 | What | URL |
 | --- | --- |
-| Receive stream | https://tn10.kaspa.stream/addresses/kaspatest:qzffl5xy9np46gkttyuftqnv2w04pr8g3wsp7c3vv8se3txtelx6q7c0v0ldx |
-| Balance (sompi) | https://api-tn10.kaspa.org/addresses/kaspatest:qzffl5xy9np46gkttyuftqnv2w04pr8g3wsp7c3vv8se3txtelx6q7c0v0ldx/balance |
+| Receive stream | https://tn10.kaspa.stream/addresses/[address] |
+| Balance (sompi) | https://api-tn10.kaspa.org/addresses/[address]/balance |
 | Health | https://api-tn10.kaspa.org/info/health |
 | BlockDAG | https://api-tn10.kaspa.org/info/blockdag |
-| Payload tx | https://api-tn10.kaspa.org/transactions/64057dd70f101bd40f49e6788f415d8f7c2bf141dfcf49fe06c0467635244dab |
-| Old journal | https://api-tn10.kaspa.org/transactions/59b284dee3d737a40699703f1a77263aa139450d2c193e9bcd558abdb149f676 |
+| Payload tx | https://api-tn10.kaspa.org/transactions/[hash] |
+| Old journal | https://api-tn10.kaspa.org/transactions/[hash] |
 | Faucet | https://faucet-tn10.kaspanet.io → 403 |
 | explorer-tn10 | https://explorer-tn10.kaspa.org → 402 DEPLOYMENT_DISABLED |
 
-Local RPC: `127.0.0.1:17210` Borsh, network `testnet-10`, kaspad **2.0.1**.
+Local RPC: `[ip]` Borsh, network `testnet-10`, kaspad **2.0.1**.
 
 ## Txids (full 64 hex; prefixes do not resolve)
 
 | txid | What |
 | --- | --- |
-| `64057dd70f101bd40f49e6788f415d8f7c2bf141dfcf49fe06c0467635244dab` | 1 tKAS receive→change, payload `tn10-hard-test payload-check`, accepted |
-| `59b284dee3d737a40699703f1a77263aa139450d2c193e9bcd558abdb149f676` | prior 1 tKAS journal, accepted, **payload null** |
+| `[hash]` | 1 tKAS receive→change, payload `tn10-hard-test payload-check`, accepted |
+| `[hash]` | prior 1 tKAS journal, accepted, **payload null** |
 
 ## Local trees (no desk username)
 

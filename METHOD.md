@@ -21,8 +21,8 @@ So the pass is a **matrix**, not a spray of tKAS. Sending coins into a docs repo
 ### 1. Identify the payer
 
 - Repo: [STP-KAS/groks-wallet](https://github.com/STP-KAS/groks-wallet)
-- Receive (mining): `kaspatest:qzffl5xy9np46gkttyuftqnv2w04pr8g3wsp7c3vv8se3txtelx6q7c0v0ldx`
-- Change: `kaspatest:qp3mgdcusyesaztxhuuqa8y3t0mtesgfgt765t34273ulugx9vh0c7zg793ld`
+- Receive (mining): `[address]`
+- Change: `[address]`
 - Seed: `LOCAL/groks-wallet/secrets/wallet.txt` — **read only by send/balance scripts, never copied into this repo**
 - Local tree is **not a git checkout**. GitHub is pushed from `LOCAL/groks-wallet-push`.
 
@@ -40,7 +40,7 @@ Authenticated user: `STP-KAS` (id 227352643).
 | --- | --- | --- | --- |
 | `kaspad` | 31088 | P2P 16211, gRPC 16210, Borsh 17210, JSON 18210 | **testnet-10** |
 | `kaspad` | 32924 | P2P **16111** | **mainnet** (left alone) |
-| `kaspa-miner-v0.2.7` | 33728 | → 127.0.0.1:16210 | TN10, 8 threads, ~11 MH/s |
+| `kaspa-miner-v0.2.7` | 33728 | → [ip] | TN10, 8 threads, ~11 MH/s |
 | PegLab serve | 51020 | :8765 | classroom UI |
 
 Why: a second bind on 16111, or pasting TN10 into **kaspa bot**, is how you brick a datadir. [Xai.Kaspa.node](https://github.com/STP-KAS/Xai.Kaspa.node) stays mainnet. This wallet stays TN10.

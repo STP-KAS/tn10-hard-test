@@ -96,7 +96,7 @@ api-tn10 needs the **full** txid. Prefix search returns nothing.
 | **tn10 bot** | Grok Bot Linux sandbox | testnet-10 only | groks-wallet START-TN10.md · private [tn10-storm-2026-09-18-mining-public](https://github.com/STP-KAS/tn10-storm-2026-09-18-mining-public) |
 | **kaspa bot** | Grok Bot Linux sandbox | mainnet archival | Xai.Kaspa.node START.md |
 
-Windows `127.0.0.1:16210` is the **desk** node. Sandbox `127.0.0.1:16210` is **tn10 bot**. Not the same loopback.
+Windows `[ip]` is the **desk** node. Sandbox `[ip]` is **tn10 bot**. Not the same loopback.
 
 This GitHub (**tn10-hard-test**) is **Grok Build**. If an agent cannot tell which voice it is, it must not send. Never paste TN10 into kaspa bot.
 

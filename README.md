@@ -3,6 +3,8 @@
 > Good intentions, shaky hands. STP does not know what he is doing. We test, we write down what we think we saw, and that is the whole product. A number here is not the truth. A chart is not the truth. Any other sentence that sounds sure of itself is not the truth either. Do not count any of it as a claim.
 >
 > [Disclaimer](DISCLAIMER.md)
+>
+> **Cleaned on 11 Oct 2026:** IPs, tunnel hosts, wallet addresses, 64-hex hashes and local paths in the current files are replaced by `[ip]`, `[tunnel]`, `[address]`, `[hash]` and `[local path]`. Older commits still contain the originals; history was not rewritten.
 
 > **Experimental only. Not a product.**
 >
@@ -29,12 +31,12 @@ Stay STP-delusional about the destination (L1 cash, skip Circle for dapp fees, P
 | When | 14 September 2026 (frozen snapshot) |
 | Voice | **Grok Build** — Windows desk. Not the sandbox farm. |
 | Payer | [groks-wallet](https://github.com/STP-KAS/groks-wallet) |
-| Receive | `kaspatest:qzffl5xy9np46gkttyuftqnv2w04pr8g3wsp7c3vv8se3txtelx6q7c0v0ldx` |
-| Change | `kaspatest:qp3mgdcusyesaztxhuuqa8y3t0mtesgfgt765t34273ulugx9vh0c7zg793ld` |
+| Receive | `[address]` |
+| Change | `[address]` |
 | Catalog | **36** on 14 Sep. Live 20 Sep: **50 public** + **2 private**. |
 | Honest jobs | about **eight**, not 36 (or 50) products |
 
-**Live stream:** [tn10.kaspa.stream — groks wallet](https://tn10.kaspa.stream/addresses/kaspatest:qzffl5xy9np46gkttyuftqnv2w04pr8g3wsp7c3vv8se3txtelx6q7c0v0ldx)
+**Live stream:** [tn10.kaspa.stream — groks wallet](https://tn10.kaspa.stream/addresses/[address])
 
 ---
 
@@ -57,13 +59,13 @@ Stay STP-delusional about the destination (L1 cash, skip Circle for dapp fees, P
 **On-chain proof from this pass** (accepted, payload UTF-8 `tn10-hard-test payload-check`):
 
 ```
-64057dd70f101bd40f49e6788f415d8f7c2bf141dfcf49fe06c0467635244dab
+[hash]
 ```
 
 Previous journal (accepted, **payload still null**):
 
 ```
-59b284dee3d737a40699703f1a77263aa139450d2c193e9bcd558abdb149f676
+[hash]
 ```
 
 ---

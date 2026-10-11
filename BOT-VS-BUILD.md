@@ -16,12 +16,12 @@ tKAS has no value. No seeds.
 | Voice | Machine | What it is allowed to mean |
 | --- | --- | --- |
 | **Grok Build** | this Windows desk | Catalog, unit tests, REST reads, desk kaspad if it is up. This GitHub (14 Sep pass + this file). |
-| **tn10 bot** | Grok Bot Linux sandbox | TN10 node + CPU farm. RPC `127.0.0.1:16210` **on the sandbox**, not this PC. Private `tn10-storm-2026-09-18-mining` REVIEW / RECOVERY. |
+| **tn10 bot** | Grok Bot Linux sandbox | TN10 node + CPU farm. RPC `[ip]` **on the sandbox**, not this PC. Private `tn10-storm-2026-09-18-mining` REVIEW / RECOVERY. |
 | **kaspa bot** | Grok Bot Linux sandbox | Mainnet archival only. Public P2P. Never TN10. |
 
 **This repo is Grok Build.** METHOD used to say “Grok (xAI) on stp’s Windows desk.” That is Build. It is not the 100–150 miner sandbox farm.
 
-Windows `127.0.0.1:16210` is the **desk** TN10 node when it is running. Sandbox loopback is a different machine. Do not flatten them.
+Windows `[ip]` is the **desk** TN10 node when it is running. Sandbox loopback is a different machine. Do not flatten them.
 
 ---
 

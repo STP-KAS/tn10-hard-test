@@ -31,7 +31,7 @@ Public mining address is **not** a leak. It is the product of a testnet classroo
 | groks-wallet `.gitignore` omits `artifacts/` | Desk `artifacts/` has quotes and logs (no seed this pass). A `git add .` from a merged tree would commit it. Add `artifacts/` and `.env`. |
 | Local `ADDRESS.json` (gitignored) | Public receive + change + **account xpub** (watch-only). Keep ignored. |
 | kns / groks-wallet absolute desk paths | Username + layout in public source. Not a key. Use env vars. This report’s METHOD/SOURCES used the same pattern on 14 Sep; **20 Sep Grok Build replaced them with `LOCAL/`**. |
-| kaspa-x402 demo-gateway wrangler env | Public **testnet** pay-to and server pubkey in worker config (`kaspatest:qzlws9lm7uyt0tftzffshnyeu2zcqk4kf7hw5ghk6v0zh093vnkljcy2fl0fh`). Expected for a hosted TN10 demo. Not groks-wallet. Not a mainnet key. |
+| kaspa-x402 demo-gateway wrangler env | Public **testnet** pay-to and server pubkey in worker config (`[address]`). Expected for a hosted TN10 demo. Not groks-wallet. Not a mainnet key. |
 | kns / kns-spec TN10 fee address | Public protocol fee sink. Anyone can see the balance (~1.37M tKAS). Not an STP seed. |
 
 ## Low / docs

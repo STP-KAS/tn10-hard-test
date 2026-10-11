@@ -35,8 +35,8 @@ This will eventually hurt: wallet restore, explorers, `getUtxosByAddresses` on w
 
 | txid | accepted | payload |
 | --- | --- | --- |
-| `59b284dee3d737a40699703f1a77263aa139450d2c193e9bcd558abdb149f676` | yes | **null** |
-| `64057dd70f101bd40f49e6788f415d8f7c2bf141dfcf49fe06c0467635244dab` | yes | **`tn10-hard-test payload-check`** |
+| `[hash]` | yes | **null** |
+| `[hash]` | yes | **`tn10-hard-test payload-check`** |
 
 `REPORT.md` talked as if the first journal carried `stillpay-tn10 groks-wallet 1-sompi receipt`. The explorer object does not. The second send proves the API **does** return native payload.
 
@@ -55,8 +55,8 @@ This will eventually hurt: wallet restore, explorers, `getUtxosByAddresses` on w
 `peglab-stp/src/network.mjs` pins:
 
 ```
-SPONSOR_ADDRESS = kaspatest:qzpvdakagvwfm95g8pv9ndpupjtndgjfhmve08cg3tv5wgfytjzf7cudwwzv0
-MINING_ADDRESS  = kaspatest:qqup3k4ru5uhj9swa05afa3zqcwkyhtv9vz9dme68cglza73mc5yk4r7an5cj
+SPONSOR_ADDRESS = [address]
+MINING_ADDRESS  = [address]
 ```
 
 Those addresses already hold **~274k** and **~104k** tKAS. groks-wallet is a third whale. Dry-run genesis compiles and picks a sponsor UTXO. `--submit` needs `PEGLAB_SPONSOR_KEY`, not groks `wallet.txt`.
