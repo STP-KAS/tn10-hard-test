@@ -5,7 +5,7 @@
 
 This GitHub stays [STP-KAS/tn10-hard-test](https://github.com/STP-KAS/tn10-hard-test). No third repo.
 
-Farm / IBD / miner counters live in private [STP-KAS/tn10-storm-2026-09-18-mining](https://github.com/STP-KAS/tn10-storm-2026-09-18-mining). That journal mixed two voices until this pass labeled them.
+Farm / IBD / miner counters live in private [STP-KAS/tn10-storm-2026-09-18-mining-public](https://github.com/STP-KAS/tn10-storm-2026-09-18-mining-public). That journal mixed two voices until this pass labeled them.
 
 tKAS has no value. No seeds.
 

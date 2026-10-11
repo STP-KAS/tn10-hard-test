@@ -16,7 +16,7 @@
 The 14 Sep pass hard-tested every STP-KAS GitHub then listed against groks-wallet on Kaspa Testnet-10.
 
 Grok Build pushback (20 Sep 2026): **[BOT-VS-BUILD.md](BOT-VS-BUILD.md)**.  
-Farm / IBD / miner journal (private; Build 18 Sep + tn10 bot 20 Sep): [STP-KAS/tn10-storm-2026-09-18-mining](https://github.com/STP-KAS/tn10-storm-2026-09-18-mining).
+Farm / IBD / miner journal (private; Build 18 Sep + tn10 bot 20 Sep): [STP-KAS/tn10-storm-2026-09-18-mining-public](https://github.com/STP-KAS/tn10-storm-2026-09-18-mining-public).
 
 Not mainnet. Not a seed in git. Not a dollar.
 
