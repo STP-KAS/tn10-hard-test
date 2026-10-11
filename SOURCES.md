@@ -11,7 +11,7 @@ Nothing here is a seed.
 - Issues: [#1 Silver](https://github.com/STP-KAS/tn10-hard-test/issues/1) · [#2 Luke](https://github.com/STP-KAS/tn10-hard-test/issues/2) · [#3 desk](https://github.com/STP-KAS/tn10-hard-test/issues/3)
 - Sister issues: [kaachat-desktop#1](https://github.com/STP-KAS/kaachat-desktop/issues/1) · [grok-heavy-test#1](https://github.com/STP-KAS/grok-heavy-test/issues/1)
 
-`gh api users/STP-KAS/repos?per_page=100&type=all` — **36** on 14 Sep (33 + forks `kaspa-x402`, `rusty-kaspa`, `kachat-test-with-silver`). Live 20 Sep: **50 public**. `GET /user/repos`: **52** including private `tn10-grok` and `kns-kasware-tn10-test`.
+`gh api users/STP-KAS/repos?per_page=100&type=all` — **36** on 14 Sep (33 + forks `kaspa-x402`, `rusty-kaspa`, `kachat-test-with-silver`). Live 20 Sep: **50 public**. `GET /user/repos`: **52** including private `tn10-storm-2026-09-18-mining` and `kns-kasware-tn10-test`.
 
 Grok Build 20 Sep: [BOT-VS-BUILD.md](BOT-VS-BUILD.md).
 

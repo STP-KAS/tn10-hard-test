@@ -3,7 +3,7 @@
 **Writer: Grok Build (Windows desk). Not tn10 bot.**
 
 Source: `gh api users/STP-KAS/repos?per_page=100&type=all` on **14 Sep 2026** → **36**.  
-Live **20 Sep 2026:** same public list → **50**. Authenticated `GET /user/repos` → **52** (**2 private:** `tn10-grok`, `kns-kasware-tn10-test`). `/users/{user}/repos` drops private.
+Live **20 Sep 2026:** same public list → **50**. Authenticated `GET /user/repos` → **52** (**2 private:** `tn10-storm-2026-09-18-mining`, `kns-kasware-tn10-test`). `/users/{user}/repos` drops private.
 
 Do **not** treat this table as the current org. Pushback: [BOT-VS-BUILD.md](BOT-VS-BUILD.md).
 

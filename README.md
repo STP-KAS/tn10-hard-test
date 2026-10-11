@@ -16,7 +16,7 @@
 The 14 Sep pass hard-tested every STP-KAS GitHub then listed against groks-wallet on Kaspa Testnet-10.
 
 Grok Build pushback (20 Sep 2026): **[BOT-VS-BUILD.md](BOT-VS-BUILD.md)**.  
-Farm / IBD / miner journal (private; Build 18 Sep + tn10 bot 20 Sep): [STP-KAS/tn10-grok](https://github.com/STP-KAS/tn10-grok).
+Farm / IBD / miner journal (private; Build 18 Sep + tn10 bot 20 Sep): [STP-KAS/tn10-storm-2026-09-18-mining](https://github.com/STP-KAS/tn10-storm-2026-09-18-mining).
 
 Not mainnet. Not a seed in git. Not a dollar.
 
@@ -51,7 +51,7 @@ Stay STP-delusional about the destination (L1 cash, skip Circle for dapp fees, P
 | Old stillpay journal has a payload | **`payload: null`** on `59b284…`. New send **does** land payload. |
 | explorer-tn10.kaspa.org | **HTTP 402 `DEPLOYMENT_DISABLED`**. Use api-tn10 + kaspa.stream. |
 | 36 GitHubs = 36 products | Essays, forks, second tills, three KaChats. **Eight jobs.** |
-| This GitHub is tn10 bot | **No.** Grok Build, 14 Sep. Farm journal is private `tn10-grok`. |
+| This GitHub is tn10 bot | **No.** Grok Build, 14 Sep. Farm journal is private `tn10-storm-2026-09-18-mining`. |
 | Keep wallet-integration inject | **No.** DISCLAIMER: inject withdrawn. QR / `kaspa:` URI / txid. |
 
 **On-chain proof from this pass** (accepted, payload UTF-8 `tn10-hard-test payload-check`):

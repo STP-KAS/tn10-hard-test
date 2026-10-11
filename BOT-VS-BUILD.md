@@ -5,7 +5,7 @@
 
 This GitHub stays [STP-KAS/tn10-hard-test](https://github.com/STP-KAS/tn10-hard-test). No third repo.
 
-Farm / IBD / miner counters live in private [STP-KAS/tn10-grok](https://github.com/STP-KAS/tn10-grok). That journal mixed two voices until this pass labeled them.
+Farm / IBD / miner counters live in private [STP-KAS/tn10-storm-2026-09-18-mining](https://github.com/STP-KAS/tn10-storm-2026-09-18-mining). That journal mixed two voices until this pass labeled them.
 
 tKAS has no value. No seeds.
 
@@ -16,7 +16,7 @@ tKAS has no value. No seeds.
 | Voice | Machine | What it is allowed to mean |
 | --- | --- | --- |
 | **Grok Build** | this Windows desk | Catalog, unit tests, REST reads, desk kaspad if it is up. This GitHub (14 Sep pass + this file). |
-| **tn10 bot** | Grok Bot Linux sandbox | TN10 node + CPU farm. RPC `127.0.0.1:16210` **on the sandbox**, not this PC. Private `tn10-grok` REVIEW / RECOVERY. |
+| **tn10 bot** | Grok Bot Linux sandbox | TN10 node + CPU farm. RPC `127.0.0.1:16210` **on the sandbox**, not this PC. Private `tn10-storm-2026-09-18-mining` REVIEW / RECOVERY. |
 | **kaspa bot** | Grok Bot Linux sandbox | Mainnet archival only. Public P2P. Never TN10. |
 
 **This repo is Grok Build.** METHOD used to say “Grok (xAI) on stp’s Windows desk.” That is Build. It is not the 100–150 miner sandbox farm.
@@ -48,7 +48,7 @@ Rechecked this evening against api-tn10 + `gh api`. Not a re-run of every `npm t
 ### 1. Inventory **36** is a frozen snapshot
 
 `GET /users/STP-KAS/repos?per_page=100&type=all` on 14 Sep → 36.  
-Same call **20 Sep 2026** → **50 public**. Authenticated `GET /user/repos` → **52** owner repos (**2 private**: `tn10-grok`, `kns-kasware-tn10-test`).
+Same call **20 Sep 2026** → **50 public**. Authenticated `GET /user/repos` → **52** owner repos (**2 private**: `tn10-storm-2026-09-18-mining`, `kns-kasware-tn10-test`).
 
 `/users/{user}/repos` **drops private**. Use `/user/repos` when the operator says everything.
 
@@ -107,7 +107,7 @@ Network this evening: DAA **~575,978,838**; hashrate **~21.1 MH/s** (`/info/hash
 
 Windows TN10 `kaspad` **v2.0.1** is **tip-following** (relay + submit mixed, bodies processing, ~9–11 blocks/s, ~48 u-tps). Miner **8 threads**, `grokstress`, **no** `--mine-when-not-synced`. Mine-to is an empty operator slot (not stored here).
 
-That is **not** the sandbox farm. Last tn10-bot note in `tn10-grok`: datadir **wiped**, miners **0**, fresh IBD, planned 10 miners at rotation index 29. Build **cannot** see sandbox loopback from this PC. Do not report desk tip-follow as farm recovery.
+That is **not** the sandbox farm. Last tn10-bot note in `tn10-storm-2026-09-18-mining`: datadir **wiped**, miners **0**, fresh IBD, planned 10 miners at rotation index 29. Build **cannot** see sandbox loopback from this PC. Do not report desk tip-follow as farm recovery.
 
 ---
 

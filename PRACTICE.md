@@ -93,7 +93,7 @@ api-tn10 needs the **full** txid. Prefix search returns nothing.
 | Voice | Machine | Network | Ritual / GitHub |
 | --- | --- | --- | --- |
 | **Grok Build** | Windows desk | REST + optional desk TN10 | this repo; master-file [DESK-BOT.md](https://github.com/STP-KAS/kaspa-master-file/blob/main/DESK-BOT.md) |
-| **tn10 bot** | Grok Bot Linux sandbox | testnet-10 only | groks-wallet START-TN10.md · private [tn10-grok](https://github.com/STP-KAS/tn10-grok) |
+| **tn10 bot** | Grok Bot Linux sandbox | testnet-10 only | groks-wallet START-TN10.md · private [tn10-storm-2026-09-18-mining](https://github.com/STP-KAS/tn10-storm-2026-09-18-mining) |
 | **kaspa bot** | Grok Bot Linux sandbox | mainnet archival | Xai.Kaspa.node START.md |
 
 Windows `127.0.0.1:16210` is the **desk** node. Sandbox `127.0.0.1:16210` is **tn10 bot**. Not the same loopback.
